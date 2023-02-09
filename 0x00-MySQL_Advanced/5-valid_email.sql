@@ -2,7 +2,7 @@
 
 DELIMITER $$
     CREATE TRIGGER change_email
-        AFTER INSERT ON users
+        BEFORE UPDATE ON users
         FOR EACH ROW
         BEGIN 
             IF NEW.email <> OLD.email
