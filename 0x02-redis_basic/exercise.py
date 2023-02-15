@@ -1,4 +1,4 @@
-#!/usr/binn/env python3
+#!/usr/bin/env python3
 '''Redis module
 '''
 import redis
@@ -9,7 +9,6 @@ import uuid
 class Cache:
     '''a class storing data in a Redis data storage.
     '''
-
     def __init__(self) -> None:
         '''Initializes a Cache instance.
         '''
