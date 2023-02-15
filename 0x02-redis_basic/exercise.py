@@ -9,6 +9,7 @@ import uuid
 class Cache:
     '''a class storing data in a Redis data storage.
     '''
+
     def __init__(self) -> None:
         '''Initializes a Cache instance.
         '''
