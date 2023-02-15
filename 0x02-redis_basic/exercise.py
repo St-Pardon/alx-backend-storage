@@ -37,6 +37,7 @@ def call_history(method: Callable) -> Callable:
         return output
     return invoker
 
+
 def replay(fn: Callable) -> None:
     '''Displays the call history of a Cache class' method.
     '''
