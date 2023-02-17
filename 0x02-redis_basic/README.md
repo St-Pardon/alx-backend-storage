@@ -182,3 +182,7 @@ Cache.store(*('bar',)) -> dcddd00c-4219-4dd7-8877-66afbe8e7df8
 Cache.store(*(42,)) -> 5e752f2b-ecd8-4925-a3ce-e2efdee08d20
 ```
 > Tip: use `lrange` and `zip` to loop over inputs and outputs.
+
+## Advanced Tasks
+
+### [Task 1]()
